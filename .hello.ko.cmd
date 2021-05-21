@@ -1,0 +1,1 @@
+cmd_/home/kailash/Linux/Week7/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/kailash/Linux/Week7/hello.ko /home/kailash/Linux/Week7/hello.o /home/kailash/Linux/Week7/hello.mod.o;  true

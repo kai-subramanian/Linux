@@ -1,0 +1,1 @@
+cmd_/home/kailash/Linux/Week7/Module.symvers := sed 's/ko$$/o/' /home/kailash/Linux/Week7/modules.order | scripts/mod/modpost -m -a   -o /home/kailash/Linux/Week7/Module.symvers -e -i Module.symvers   -T -
